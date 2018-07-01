@@ -1,0 +1,223 @@
+* {
+	margin:0;
+	box-sizing: border-box;
+
+}
+
+a {
+	color:#bd806e;
+}
+a:hover {
+	color:#eda087;
+}
+
+header {
+	height:100vh;
+	width:100vw;
+	background: url('https://orange.codeberryschool.com/content/images/project-assets/wedding-landing-cover.jpg') no-repeat 70% center/cover;
+	text-align:center;
+	display:table;
+	font-family: 'Libre Baskerville', serif;
+}
+
+.wrapper {
+	color:#ffffff;
+	display:table-cell;
+	vertical-align:middle;
+}
+.wrapper-text {
+	background-color:hsla(100,0%,0%,.5);
+	padding:1rem;
+	
+
+	
+}
+.tagline {
+	font-size:1.5rem;
+}
+.tagline::after {
+	content: "";
+	display: block;
+	height: .0775rem; 
+	width: 50%; 
+	margin: 0.5rem auto; 
+	background-color: #ffffff;
+	
+}
+.head-title {
+	font-family: 'Great Vibes', cursive;
+	color:#d2ba87;
+	font-size:4rem;
+}
+
+.date {
+	font-size:1.3rem;
+}
+
+.date::before, .date::after{
+	content: "";
+	display: inline-block;
+	height: .0975rem; 
+	width: 5%; 
+	margin: 0.25rem 0.4rem; 
+	background-color: #ffffff;
+	
+}
+
+main {
+	
+	text-align:center;
+	color:#444349;
+	background: url('https://orange.codeberryschool.com/content/images/project-assets/wedding-landing-background.png')
+}
+div, p {
+	font-size:1.15rem;
+	padding-top:1rem;
+}
+.block {
+	padding:2rem;
+}
+.block img {
+	width:7rem;
+	height:auto;
+	padding-top:2rem;
+	padding-bottom:2rem;
+}
+.subblock, .Dsubblock {
+	padding-top:2rem;
+}
+
+.subblock::after {
+	content: "";
+	display: inline-block;
+	height: .0975rem; 
+	width: 25%; 
+	margin-top:2rem;
+	background-color: #444349;
+	
+}
+.Dsubblock::after {
+	content: "";
+	display: inline-block;
+	height: .0975rem; 
+	width: 25%; 
+	margin-top:2rem;
+	background-color: #d2ba87;
+	
+}
+
+h2 {
+	font-family: 'Great Vibes', cursive;
+	font-size:2.5rem;
+}
+
+h3 {
+	font-family: 'Libre Baskerville', serif;
+	font-size:1.8rem;
+	padding:1.5rem;
+}
+
+
+.dark {
+	background-color:hsla(100,0%,0%,.6);
+	color:#d2ba87;
+}
+
+.italic {
+	 font-style: italic;
+	
+}
+
+#program {
+	text-align:left;
+	margin:auto; 2rem;
+	padding:1.2rem;
+	line-height:1.7rem;
+}
+
+.question {
+	padding:.8rem;
+	line-height:1.7rem;
+}
+.bold {
+	font-weight: 900;
+}
+
+footer {
+	padding:1rem 1rem 0 1rem;
+}
+
+@media (min-width: 768px) {
+	h2 {
+		font-size:4.5rem;
+	}
+	
+	h3 {
+		font-size:3rem;
+	}
+	
+	div, p {
+	font-size:2rem;
+}
+
+	small {
+		font-size:1.5rem;
+	}
+	
+}
+
+
+@media (min-width: 1024px) {
+	.wrapper-text {
+		margin:auto 25%;
+	}
+	
+	.head-title {
+		
+		font-size:5rem;
+	}
+	
+	.tagline {
+		font-size:2rem;
+		text-transform: uppercase;
+}
+	.tagline::after {
+		height: .0875rem; 
+
+		margin: 0.7rem auto; 
+
+	
+}
+	.date {
+		font-size:2rem;
+	}
+	h2{
+		font-size:5rem;
+	}
+	h3 {
+		font-size:1.5rem;
+	}
+	
+	.subblock {
+		display:inline-block;
+		padding:0.7rem;
+	}
+	#program {
+		margin:auto 25%;
+	}
+	
+	.Dsubblock {
+		display:inline-block;
+		max-width:33%;
+	}
+	div, p {
+	font-size:1.4rem;
+	
+	}
+	.subblock::after {
+		display:none;
+	}
+	.Dsubblock::after {
+		display:none;
+	}
+}
