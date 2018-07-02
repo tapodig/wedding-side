@@ -1,5 +1,6 @@
 # Wedding Side
-This was my first task in the CodeBerry programming school. I had to copy a medium article.
+This was a task from the CodeBerry programming school. Creating a weeding side in selected style.
+
 ## Built With
 - Notepad++
 - HTML
